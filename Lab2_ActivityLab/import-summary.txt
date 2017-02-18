@@ -1,0 +1,110 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/Lab2_ActivityLab.iml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/sonarlint/
+* .idea/sonarlint/issuestore/
+* .idea/sonarlint/issuestore/0/
+* .idea/sonarlint/issuestore/0/a/
+* .idea/sonarlint/issuestore/0/a/0af80080bcacbf99afba3066b3427404d7778bac
+* .idea/sonarlint/issuestore/index.pb
+* .idea/workspace.xml
+* ActivityLifecycleWalkthrough.pdf
+* ActivityNoReconfig.mp4
+* ActivityReconfig.mp4
+* Lab-Activity.pdf
+* Test1_StartActivityOneTest.txt
+* Test2_DoubleRotateActivityOneTest.txt
+* Test3_StartActivityTwoTest.txt
+* Test4_DoubleRotateActivityTwoTest.txt
+* Test5_CloseActivityTwoTest.txt
+* Test6_ReopenActivityTwoTest.txt
+* build/
+* build/production/
+* build/production/Lab2_ActivityLab/
+* build/production/Lab2_ActivityLab/Lab2_ActivityLab.apk
+* build/production/Lab2_ActivityLab/Lab2_ActivityLab.unaligned.apk
+* build/production/Lab2_ActivityLab/course/
+* build/production/Lab2_ActivityLab/course/labs/
+* build/production/Lab2_ActivityLab/course/labs/activitylab/
+* build/production/Lab2_ActivityLab/course/labs/activitylab/ActivityOne$1.class
+* build/production/Lab2_ActivityLab/course/labs/activitylab/ActivityOne.class
+* build/production/Lab2_ActivityLab/course/labs/activitylab/ActivityTwo$1.class
+* build/production/Lab2_ActivityLab/course/labs/activitylab/ActivityTwo.class
+* build/production/Lab2_ActivityLab/course/labs/activitylab/BuildConfig.class
+* build/production/Lab2_ActivityLab/course/labs/activitylab/R$attr.class
+* build/production/Lab2_ActivityLab/course/labs/activitylab/R$drawable.class
+* build/production/Lab2_ActivityLab/course/labs/activitylab/R$id.class
+* build/production/Lab2_ActivityLab/course/labs/activitylab/R$layout.class
+* build/production/Lab2_ActivityLab/course/labs/activitylab/R$string.class
+* build/production/Lab2_ActivityLab/course/labs/activitylab/R$style.class
+* build/production/Lab2_ActivityLab/course/labs/activitylab/R.class
+* build/production/Lab2_ActivityLab/drawable-hdpi/
+* build/production/Lab2_ActivityLab/drawable-hdpi/ic_launcher.png
+* build/production/Lab2_ActivityLab/drawable-ldpi/
+* build/production/Lab2_ActivityLab/drawable-ldpi/ic_launcher.png
+* build/production/Lab2_ActivityLab/drawable-mdpi/
+* build/production/Lab2_ActivityLab/drawable-mdpi/ic_launcher.png
+* build/production/Lab2_ActivityLab/drawable-xhdpi/
+* build/production/Lab2_ActivityLab/drawable-xhdpi/ic_launcher.png
+* build/production/Lab2_ActivityLab/layout/
+* build/production/Lab2_ActivityLab/layout/activity_one.xml
+* build/production/Lab2_ActivityLab/layout/activity_two.xml
+* build/production/Lab2_ActivityLab/values-v11/
+* build/production/Lab2_ActivityLab/values-v11/styles.xml
+* build/production/Lab2_ActivityLab/values-v14/
+* build/production/Lab2_ActivityLab/values-v14/styles.xml
+* build/production/Lab2_ActivityLab/values/
+* build/production/Lab2_ActivityLab/values/strings.xml
+* build/production/Lab2_ActivityLab/values/styles.xml
+* ic_launcher-web.png
+* proguard-project.txt
+* tests/
+* tests/course/
+* tests/course/labs/
+* tests/course/labs/activitylab/
+* tests/course/labs/activitylab/tests/
+* tests/course/labs/activitylab/tests/Test1_StartActivityOneTest.java
+* tests/course/labs/activitylab/tests/Test2_DoubleRotateActivityOneTest.java
+* tests/course/labs/activitylab/tests/Test2_DoubleRotateActivtyOneTest.java
+* tests/course/labs/activitylab/tests/Test3_StartActivityTwoTest.java
+* tests/course/labs/activitylab/tests/Test4_DoubleRotateActivityTwoTest.java
+* tests/course/labs/activitylab/tests/Test5_CloseActivityTwoTest.java
+* tests/course/labs/activitylab/tests/Test6_ReopenActivityTwoTest.java
+* warmupSolution.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
