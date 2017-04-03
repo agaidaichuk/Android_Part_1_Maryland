@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DangerousApp</string>
+    <string name="hello_world">You have opened a dangerous activity</string>
+    <string name="dangerous_perm_string">Allow user to run DangerousApp</string>
+    <string name="dangerous_perm__label_string">Dangerous Permission</string>
+
+</resources>

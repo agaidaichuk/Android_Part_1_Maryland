@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.coursera.agaidaichuk.lab5modernui.MainActivity"
+        android:orientation="vertical"
+        android:background="@android:color/black">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:divider="@drawable/horizontal_divider"
+            android:showDividers="middle"
+            android:baselineAligned="false">
+
+        <LinearLayout
+                android:id="@+id/col1"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2.3"
+                android:orientation="vertical"
+                android:divider="@drawable/vertical_divider"
+                android:showDividers="middle">
+
+            <View
+                    android:id="@+id/col1row1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.8"
+                    android:background="#f7f791" />
+
+            <View
+                    android:id="@+id/col1row2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="#f2de91" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/col2"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:divider="@drawable/vertical_divider"
+                android:showDividers="middle">
+
+            <View
+                    android:id="@+id/col2row1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:background="@android:color/holo_orange_light" />
+
+            <View
+                    android:id="@+id/col2row2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.5"
+                    android:background="@android:color/white" />
+
+            <View
+                    android:id="@+id/col2row3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:background="#a9c46b" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"/>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab5ModernUI</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alertTitle">More Information</string>
+    <string name="alertMessage">You will be transferred to http://moma.org. Should we proceed?</string>
+    <string name="alertPositive">Proceed</string>
+    <string name="alertNegative">Later</string>
+</resources>
